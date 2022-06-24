@@ -367,6 +367,17 @@ Para el circuito b:
 
 ![image](https://user-images.githubusercontent.com/105565683/175699363-b1904ed4-3fa7-42b8-8281-8c55b1fa432f.png)
 
+## VIDEO
+
+
+
+## CONCLUSIONES
+
+- 
+
+## BIBLIOGRAFÍA 
+
+
 
 
 
