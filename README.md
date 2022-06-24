@@ -243,6 +243,102 @@ Por el problema 7, sabemos que:
 
 ![image](https://user-images.githubusercontent.com/105565683/175543496-b69c2a0b-390c-4092-9fb3-be25a27aea53.png)
 
+Para el circuito a:
+
+![image](https://user-images.githubusercontent.com/105565683/175697676-56719b1a-cc12-4317-8789-102d89f44913.png)
+
+![image](https://user-images.githubusercontent.com/105565683/175697703-cd228655-7793-4134-8ed3-e9b00b3935ff.png)
+
+Para el circuito b:
+
+![image](https://user-images.githubusercontent.com/105565683/175697730-cc67a557-5a9d-40f0-a387-0d36b8cf4ef3.png)
+
+![image](https://user-images.githubusercontent.com/105565683/175697754-01877088-82e1-44de-b553-80cbb67b6a7a.png)
+
+12. Repita el problema 11 si R2 es de 10 kΩ.  En la figura 8-72 se muestra un circuito comparador. El voltaje de entrada, VENTRADA, se compara con el voltaje de referencia, VREFERENCIA, y se genera una salida negativa si VREFERENCIA > VENTRADA; de lo contrario es positiva. El comparador no carga a una u otra entrada. Si R2 es de 10 kΩ, ¿cuál es el intervalo del voltaje de referencia?
+
+![image](https://user-images.githubusercontent.com/105565683/175697786-678b473e-2656-4f4b-b91e-3cca89326b00.png)
+
+![image](https://user-images.githubusercontent.com/105565683/175697819-093ca443-64b9-4d23-b5c3-a8c3378c5f5d.png)
+
+14. Los interruptores mostrados en la figura 8-74 se cierran en secuencia, SW1 primero. Determine la corriente a través de R4 después del cierre de cada interruptor.
+
+![image](https://user-images.githubusercontent.com/105565683/175697840-cfc7b384-7e7a-425b-ac92-7521bedace22.png)
+
+![image](https://user-images.githubusercontent.com/105565683/175697866-0f6fbacb-bf38-4140-9015-6eb171ceb0c5.png)
+
+![image](https://user-images.githubusercontent.com/105565683/175697926-d357cd9d-2d9c-4be8-a3bb-ca7489c58717.png)
+
+![image](https://user-images.githubusercontent.com/105565683/175697989-e3e73bc4-bcaf-4f25-8d3c-d25d3ef1bf7b.png)
+
+![image](https://user-images.githubusercontent.com/105565683/175698044-38568024-2af2-42a3-915e-067d06183a55.png)
+
+![image](https://user-images.githubusercontent.com/105565683/175698082-60632ce4-512d-4900-aba3-dc40ab4056af.png)
+
+16. Para cada uno de los circuitos de la figura 8-76, determine el equivalente de Thevenin como se ve desde las terminales A y B.
+
+![image](https://user-images.githubusercontent.com/105565683/175698105-e8126344-e6c0-4347-96b2-915b472d30fe.png)
+
+![image](https://user-images.githubusercontent.com/105565683/175698152-65a2b152-071d-4885-8d0f-ee263c0f3445.png)
+
+18. Con el teorema de Thevenin, determine el voltaje entre los extremos de R4 en la figura 8-78.
+
+![image](https://user-images.githubusercontent.com/105565683/175698179-3f71f15d-6023-4ee6-8c44-576e2bd70ff1.png)
+
+![image](https://user-images.githubusercontent.com/105565683/175698190-aea03244-b8fb-4e28-a70f-470bd2ff4217.png)
+
+![image](https://user-images.githubusercontent.com/105565683/175698221-25567819-1ff4-4aaf-8fd2-31726530cde0.png)
+
+![image](https://user-images.githubusercontent.com/105565683/175698245-df36eb3d-fa43-4720-91dc-2749f5429a5e.png)
+
+20. Determine la corriente que se dirige al punto A cuando R8 es de 1.0 kΩ, 5 kΩ, y 10 kΩ en la figura 8-80.
+
+![image](https://user-images.githubusercontent.com/105565683/175698264-81df26ed-3723-4136-af68-d964b4c71f87.png)
+
+![image](https://user-images.githubusercontent.com/105565683/175698280-b8d8462f-d0b4-48bb-b5b8-6ba563f93f73.png)
+
+![image](https://user-images.githubusercontent.com/105565683/175698323-39122eb1-0a5f-4cb6-87f4-30a6f574619f.png)
+
+![image](https://user-images.githubusercontent.com/105565683/175698360-f632662a-6e72-4476-9d1e-cd9cacf6b30f.png)
+
+22. Determine el equivalente de Thevenin del circuito mostrado en la figura 8-82 visto desde las terminales A y B
+
+![image](https://user-images.githubusercontent.com/105565683/175698381-81907854-ef87-4d4f-86ec-209b1a52ce5c.png)
+
+![image](https://user-images.githubusercontent.com/105565683/175698391-3289e68f-6f62-4452-86f7-fd4921faa31e.png)
+
+![image](https://user-images.githubusercontent.com/105565683/175698435-df8c4248-b8fa-4834-9209-4278a43467d6.png)
+
+24. Con el teorema de Norton, determine la corriente que circula a través del resistor de carga RL en la figura 8-77.
+
+![image](https://user-images.githubusercontent.com/105565683/175698450-69b47f06-cd4c-4c43-b2bf-422b793ecb3c.png)
+
+![image](https://user-images.githubusercontent.com/105565683/175698460-a9b9b61f-ace5-41eb-a2b3-717990bb26ad.png)
+
+![image](https://user-images.githubusercontent.com/105565683/175698557-e77a994f-a03d-455a-9306-2e3d40b689ec.png)
+
+26. Con el teorema de Norton, determine la corriente que circula a través de R1 en la figura 8-80 cuando R8 = 8 kΩ.
+
+![image](https://user-images.githubusercontent.com/105565683/175698576-d6d306d4-6966-43ca-b47f-b074dd625b00.png)
+
+![image](https://user-images.githubusercontent.com/105565683/175698588-86b882f9-aee3-45a2-bfa4-30a7d8d554db.png)
+
+![image](https://user-images.githubusercontent.com/105565683/175698650-8e148b0a-52f4-4cd1-8f71-36fe8ab72592.png)
+
+![image](https://user-images.githubusercontent.com/105565683/175698683-4b460859-9a25-4ca4-9252-a18419749737.png)
+
+![image](https://user-images.githubusercontent.com/105565683/175698729-661bd095-02ac-418f-9780-2e496585c29e.png)
+
+28. En la figura 8-83, reduzca el circuito entre las terminales A y B a su equivalente Norton.
+
+![image](https://user-images.githubusercontent.com/105565683/175698748-53c11c04-b1b9-4cf9-bae9-e23586ccbba5.png)
+
+![image](https://user-images.githubusercontent.com/105565683/175698763-1482b6e3-d4c6-48dc-957d-59147c07a0cb.png)
+
+![image](https://user-images.githubusercontent.com/105565683/175698789-c6aea340-c406-4ead-bd5c-79806e065fe0.png)
+
+30. En cada circuito mostrado en la figura 8-85, se tiene que transferir potencia máxima a la carga RL. Determine el valor apropiado de RL en cada caso.
+
 
 
 
