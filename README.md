@@ -339,6 +339,34 @@ Para el circuito b:
 
 30. En cada circuito mostrado en la figura 8-85, se tiene que transferir potencia máxima a la carga RL. Determine el valor apropiado de RL en cada caso.
 
+![image](https://user-images.githubusercontent.com/105565683/175698992-c7a8fb36-3be7-4614-95b8-fe3ff3485245.png)
+
+![image](https://user-images.githubusercontent.com/105565683/175699012-cdc00adc-ee3a-4d48-8e64-862fd7943d4b.png)
+
+32. ¿Cuánta potencia se suministra a la carga cuando RL es un 10% más alta que su valor para transferencia de potencia máxima en el circuito de la figura 8-86?
+
+![image](https://user-images.githubusercontent.com/105565683/175699034-e073fb39-2204-40a0-861f-85c8272ae92c.png)
+
+![image](https://user-images.githubusercontent.com/105565683/175699043-af2d1fc5-79d4-46c5-92b1-25314ac9713b.png)
+
+![image](https://user-images.githubusercontent.com/105565683/175699085-e46e4c1f-d6d6-4844-8e28-433f0d55e9c4.png)
+
+![image](https://user-images.githubusercontent.com/105565683/175699251-70f758bc-943b-4226-85ed-12bff480d45e.png)
+
+34. En la figura 8-88, convierta cada red delta en una red Y.
+
+![image](https://user-images.githubusercontent.com/105565683/175699289-82cf021b-b0e6-4587-9583-11cc5f006734.png)
+
+![image](https://user-images.githubusercontent.com/105565683/175699145-00b10262-625e-4e20-8f38-877beea05f3a.png)
+
+36. Determine todas las corrientes que circulan en el circuito de la figura 8-90.
+
+![image](https://user-images.githubusercontent.com/105565683/175699306-d19318e0-52fc-4a8d-a82d-4fe5d2e19c37.png)
+
+![image](https://user-images.githubusercontent.com/105565683/175699316-f9a50035-fa1a-481c-aa32-b83390596c99.png)
+
+![image](https://user-images.githubusercontent.com/105565683/175699363-b1904ed4-3fa7-42b8-8281-8c55b1fa432f.png)
+
 
 
 
