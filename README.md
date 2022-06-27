@@ -586,7 +586,7 @@ Para el circuito b:
 
 ## VIDEO
 
-
+https://youtu.be/jJFFcfp2Yqs
 
 ## CONCLUSIONES
 
