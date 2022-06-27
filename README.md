@@ -171,11 +171,11 @@ La forma Thevenin equivalente de cualquier circuito resistivo de dos terminales 
 
 Sus pasos son:
 
-•	Paso 1. Abrir las dos terminales (eliminar cualquier carga) entre las que se desea encontrar el circuito equivalente de Thevenin. 
-•	Paso 2. Determinar el voltaje (VTH) entre las dos terminales abiertas. 
-•	Paso 3. Determinar la resistencia (RTH) entre las dos terminales abiertas con todas las fuentes reemplazadas por sus resistencias internas (fuentes de voltaje ideales en cortocircuito y fuentes de corriente ideales abiertas). 
-•	Paso 4. Conectar VTH y RTH en serie para producir el equivalente de Thevenin completo del circuito original. 
-•	Paso 5. Reemplazar la carga eliminada en el paso 1 entre las terminales del circuito equivalente de Thevenin. Ahora se pueden calcular la corriente y el voltaje que haya en la carga utilizando solamente la ley de Ohm. Tienen el mismo valor que la corriente y el voltaje presentes en la carga del circuito original.
+-	Paso 1. Abrir las dos terminales (eliminar cualquier carga) entre las que se desea encontrar el circuito equivalente de Thevenin. 
+-	Paso 2. Determinar el voltaje (VTH) entre las dos terminales abiertas. 
+-	Paso 3. Determinar la resistencia (RTH) entre las dos terminales abiertas con todas las fuentes reemplazadas por sus resistencias internas (fuentes de voltaje ideales en cortocircuito y fuentes de corriente ideales abiertas). 
+-	Paso 4. Conectar VTH y RTH en serie para producir el equivalente de Thevenin completo del circuito original. 
+-	Paso 5. Reemplazar la carga eliminada en el paso 1 entre las terminales del circuito equivalente de Thevenin. Ahora se pueden calcular la corriente y el voltaje que haya en la carga utilizando solamente la ley de Ohm. Tienen el mismo valor que la corriente y el voltaje presentes en la carga del circuito original.
 
 ![image](https://user-images.githubusercontent.com/105565683/175839236-b87c6c22-1e0b-4b8f-b0eb-81f4ffb86cfb.png)
 
@@ -195,10 +195,10 @@ La resistencia equivalente de Norton, RN, es la resistencia total que aparece en
 
 Sus pasos son:
 
-•	Paso 1. Poner con cortocircuito las dos terminales entre la cuales se desea determinar el circuito equivalente de Norton. 
-•	Paso 2. Determinar la corriente (IN) a través de las terminales puestas en cortocircuito. 
-•	Paso 3. Determinar la resistencia (RN) entre las dos terminales abiertas con todas las fuentes reemplazadas por sus resistencias internas (fuentes de voltaje ideales en cortocircuito y fuentes de corriente ideales abiertas). RN=RTH. 
-•	Paso 4. Conectar IN y RN en paralelo para producir el circuito equivalente de Norton completo para el circuito original.
+-	Paso 1. Poner con cortocircuito las dos terminales entre la cuales se desea determinar el circuito equivalente de Norton. 
+-	Paso 2. Determinar la corriente (IN) a través de las terminales puestas en cortocircuito. 
+-	Paso 3. Determinar la resistencia (RN) entre las dos terminales abiertas con todas las fuentes reemplazadas por sus resistencias internas (fuentes de voltaje ideales en cortocircuito y fuentes de corriente ideales abiertas). RN=RTH. 
+-	Paso 4. Conectar IN y RN en paralelo para producir el circuito equivalente de Norton completo para el circuito original.
 
 ### TEOREMA DE TRANSFERENCIA DE POTENCIA MÁXIMA
 
