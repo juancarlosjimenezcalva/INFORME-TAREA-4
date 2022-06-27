@@ -590,13 +590,22 @@ Para el circuito b:
 
 ## CONCLUSIONES
 
-- 
+•	Un circuito en serie-paralelo son aquellos que están conformados tanto por partes y componentes en serie y en paralelo dentro del circuito.
+•	Para el cálculo de la resistencia total del circuito es necesario saber distinguir que partes del circuito en serie y en paralelo basándose en la dirección de la corriente del circuito.
+•	Para el calculo de divisores de voltaje es necesario tener en cuenta que solo se puede realizar en un circuito en serie, y para el divisor de corriente es necesario hacer en un circuito en paralelo.
+•	Una fuente de voltaje es aquella que suministra voltaje y una fuente de corriente es aquella que suministra corriente, para convertir de otra hay que seguir las leyes de ohm y hacer transformación de serie a paralelo dependiendo del caso.
+•	El teorema de superposición consiste en eliminar una fuente del circuito para facilitar el cálculo de sus componentes.
+•	El teorema de Thevenin consiste en la utilización de una fuente de voltaje equivalente y una resistencia equivalente.
+•	El teorema de Norton es aquel en que se basa en simplificar un circuito lineal de dos terminales en un circuito equivalente con sólo una fuente de corriente en paralelo con un resistor.
+•	El teorema de Transferencia de potencia máxima es aquel en que para una fuente de voltaje dada, la potencia máxima se transfiere desde una fuente hasta una carga cuando la resistencia de la carga es igual a la resistencia interna de la fuente.
+•	El circuito Delta es aquel que se representa como un triangulo inverso, y el circuito Y es aquel que se representa como una Y, y para su conversión es necesario calcular las resistencias equivalentes.
 
 ## BIBLIOGRAFÍA 
 
+acmax. (21 de Septiembre de 2020). acmax. Obtenido de acmax: https://acmax.mx/que-es-una-fuente-de-corriente
 
+electronicaonline. (23 de Julio de 2021). electronicaonline. Obtenido de electronicaonline: https://electronicaonline.net/circuito-electrico/circuito-mixto/
 
+Floyd, T. L. (2007). Principios de circuitos eléctricos. Monterrey: Pearson Education.
 
-
-
-
+osakaelectronicsltda. (6 de Septiembre de 2021). osakaelectronicsltda. Obtenido de osakaelectronicsltda: https://osakaelectronicsltda.com/blog/recomendaciones/que-es-una-fuente-de-voltaje
