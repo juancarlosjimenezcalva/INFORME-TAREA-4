@@ -1,15 +1,232 @@
 # INFORME TAREA 4
 ## OBJETIVO GENERAL
 
-
+Comprender el funcionamiento y composición de los circuitos en serie-paralelo, por medio de análisis, conversiones de fuentes de voltaje y corriente, y la aplicación de teoremas como: Superposición, Thévenin, Norton y Transferencia de potencia máxima, por medio de la investigación en fuentes confiables, resolución de ejercicios de los temas antes previstos y la elaboración de un informe explicando los temas, para así lograr tener una visión clara del funcionamiento de circuitos en serie-paralelo, como las distintas mediciones y relaciones dentro de un circuito serie-paralelo, así como los teoremas y conversiones necesarias para calcular sus componentes.
 
 ## OBJETIVOS ESPECÍFICOS: 
 
--	
+-	Definir que es un circuito en serie-paralelo.
+-	Demostrar como se calculan las resistencias y divisores de voltaje y corriente, dentro de un circuito serie-paralelo.
+-	Explicar que son las fuentes de voltaje y corriente, y su conversión.
+-	Explicar los teoremas de Superposición, Thevenin, Norton y Transferencia de potencia máxima.
+-	Determinar que son los circuitos Delta y Y, y su conversión.
 
 ## MARCO TEÓRICO
 
+### CIRCUITO SERIE-PARALELO
 
+Los circuitos en serie-paralelo, también son conocidos como circuitos mixtos, los cuales se caracterizan por que es una combinación de circuitos en serie y en paralelo, es decir, si los elementos de un circuito están conectados en serie y otros en paralelo, sería un circuito eléctrico mixto.
+
+Las características del Circuito Mixto son las siguientes:
+
+•	Se caracteriza por estar compuesta por la combinación de circuitos en serie y paralelo.
+•	El voltaje, varía dependiendo de la caída de tensión entre cada nodo.
+•	La intensidad de la corriente varía dependiendo de la conexión.
+•	Existen dos fórmulas para calcular la resistencia total del circuito mixto.
+
+Ejemplo de circuito serie-paralelo:
+
+![image](https://user-images.githubusercontent.com/105565683/175838793-d7d51cc0-6339-4a96-b39d-c8e2796d4733.png)
+
+#### RESISTENCIA TOTAL
+
+Para poder comprender correctamente como funciona un circuito en serie-paralelo, es muy útil comprender como se calcula la resistencia total, puesto que, la resistencia total se calcula como:
+
+![image](https://user-images.githubusercontent.com/105565683/175838828-98573d01-60b1-488c-8ea9-61c57c96a5b1.png)
+
+Cabe recalcar que para poder determinar que partes del circuito están en serie o paralelo, es necesario tener en cuenta la dirección de la corriente y la parte del circuito analizado, de la misma forma, en algunos casos es conveniente redibujar el circuito, para tener una mejor comprensión.
+
+### DIVISORES DE VOLTAJE Y CORRIENTE
+
+#### DIVISOR DE CORRIENTE
+
+Para calcular la corriente total de un circuito en serie-paralelo se utiliza ley de ohm.
+
+![image](https://user-images.githubusercontent.com/105565683/175838872-82dba79b-1b53-42ed-af94-474d5c7f9f6f.png)
+
+Para calcular la corriente en una parte del circuito en específico, se usa un divisor de corriente, el cual se utiliza en las partes en paralelo del circuito, para ver la corriente que sale de un resistor.
+
+![image](https://user-images.githubusercontent.com/105565683/175838881-3e8d24c3-54aa-458b-bde1-1e62fcce6681.png)
+
+#### DIVISOR DE VOLTAJE
+
+Para calcular el voltaje total de un circuito en serie-paralelo, solo se calcula el voltaje en serie, porque en paralelo, el voltaje es el mismo para cada resistor.
+
+![image](https://user-images.githubusercontent.com/105565683/175838907-0084b6af-15b4-45c5-be7b-bffcb7341c07.png)
+
+Para calcular el voltaje individual en un resistor en paralelo solo se utiliza la ley de ohm.
+
+![image](https://user-images.githubusercontent.com/105565683/175838918-102045c2-3428-4fca-bc08-1002ced73d9b.png)
+
+Para calcular el voltaje individual en un resistor en serie se utiliza divisor de voltaje, para poder calcular el voltaje de un resistor.
+
+![image](https://user-images.githubusercontent.com/105565683/175838927-4f09d021-c313-41e7-baf4-930579bc73fe.png)
+
+Esto sirve también para calcular el voltaje de salida, con o sin carga de una parte del circuito, el voltaje de salida se representa así:
+
+##### Sin carga:
+
+![image](https://user-images.githubusercontent.com/105565683/175838940-29610452-6351-461d-bf89-835ee8cb3dd7.png)
+
+##### Con carga:
+
+![image](https://user-images.githubusercontent.com/105565683/175838952-c37f0a73-5648-4519-9523-a188b6e894b0.png)
+
+Para calcular el voltaje de salida sin carga se calcula el divisor de voltaje entre dos resistores en serie, basándose en la dirección de la corriente.
+
+![image](https://user-images.githubusercontent.com/105565683/175838963-27de41c5-0366-4ed3-b938-c82fb282a5cf.png)
+
+Para calcular el voltaje de salida con carga se calcula el divisor de voltaje entre todos los resistores, basándose en la dirección de la corriente.
+
+![image](https://user-images.githubusercontent.com/105565683/175838980-f9eb087f-0bb9-465e-bde9-3adeb6a687ef.png)
+
+### EFECTO DE CARGA DE UN VOLTÍMETRO (MEDICIÓN REAL)
+
+Cuando un voltímetro se conecta a un circuito, su resistencia interna aparece en paralelo, es decir, que esta afecta a la medida real del voltaje, porque siempre existirá una variación dependiendo del voltímetro. Por ejemplo:
+
+![image](https://user-images.githubusercontent.com/105565683/175838992-3b6d85a3-9495-46ed-933d-dff68fc1b06c.png)
+
+De forma que para calcular el voltaje real de una resistencia solo su calcula teniendo en cuenta la resistencia interna y usando un divisor de voltaje:
+
+![image](https://user-images.githubusercontent.com/105565683/175839007-8165a68a-9327-45f5-8651-6bdb66ee3baa.png)
+
+### REDES ESCALERA
+
+Una red escalera es esta:
+
+![image](https://user-images.githubusercontent.com/105565683/175839025-d29d5dce-5b57-4ced-a9e4-7e7db186f675.png)
+
+Para calcular la corriente y voltaje de un circuito en serie se realiza de la misma forma de un circuito en serie-paralelo, pero sirve para analizar un circuito en serie-paralelo, por medio del calculo de la resistencia en una zona específica de forma que:
+
+![image](https://user-images.githubusercontent.com/105565683/175839028-341a11a1-2c35-440b-9c62-90d5dca298e8.png)
+
+La resistencia total se calcularía en serie de forma: 
+
+![image](https://user-images.githubusercontent.com/105565683/175839046-ed00c303-011d-43ce-8f60-44759bee6c54.png)
+
+Para calcular la resistencia en cualquier nodo para reducirlo de forma simple analizamos en el sentido de la corriente, por ejemplo, para el nodo B R4 esta en paralelo con R5 y R6, y estos están en serie, y se calcula así:
+
+![image](https://user-images.githubusercontent.com/105565683/175839069-a2cbdd91-f283-44e4-87c3-df60cda64baa.png)
+
+Para las redes en escalera el proceso normal es reducir el circuito calculando las resistencias totales de casa sección del circuito.
+
+### PUENTE DE WHEATSTONE 
+
+Es un circuito con una configuración normalmente de: cuatro resistores y una fuente de voltaje de cd entre los puntos superior e inferior del “diamante”.
+
+![image](https://user-images.githubusercontent.com/105565683/175839086-7825ef18-8867-4c3c-9b0b-681f39d3d7dc.png)
+
+Existen dos formas en que puede estar:
+
+#### Equilibrado:
+
+![image](https://user-images.githubusercontent.com/105565683/175839094-e36b0307-d637-4a2f-9e28-e2a0862481c0.png)
+
+#### Desequilibrado:
+
+![image](https://user-images.githubusercontent.com/105565683/175839101-230cef5c-36a3-4279-aa4f-82458a288861.png)
+
+### FUENTE DE VOLTAJE
+
+Una fuente de voltaje es un dispositivo que tiene dos terminales encargadas de generar un voltaje de salida, independientemente de las cargas que reciba, se representa asi:
+
+![image](https://user-images.githubusercontent.com/105565683/175839120-7c5b7cdc-9d5d-43ed-bad3-be267f438b04.png)
+
+### FUENTE DE CORRIENTE
+
+Una fuente de corriente es un equipo que suministra corriente eléctrica a una carga, se representa asi:
+
+![image](https://user-images.githubusercontent.com/105565683/175839131-cc5581fd-1122-4529-b1ea-900c8f652b97.png)
+
+### CONVERSIÓN DE FUENTE
+
+Esta es una técnica para el análisis de un circuito, principalmente sirve al momento de hacer cálculos, cosiste en convertir una fuente de voltaje en una fuente de corriente o viceversa.
+
+#### DE VOLTAJE A CORRIENTE
+
+![image](https://user-images.githubusercontent.com/105565683/175839163-cd80d73f-7b28-4f43-8fb1-5f9e16afd7c2.png)
+
+#### DE CORRIENTE A VOLTAJE
+
+![image](https://user-images.githubusercontent.com/105565683/175839172-8e7f38f4-b7f5-4523-995b-86131d21866c.png)
+
+### TEOREMA DE SUPERPOSICION
+
+El método de superposición es una forma de determinar corrientes en un circuito con múltiples fuentes dejando una fuente a la vez y reemplazando las demás fuentes por sus resistencias internas. Siendo que para una fuente de voltaje ideal es cero (circuito cerrado), y para una fuente de corriente ideal es infinito (circuito abierto).
+
+El teorema dice que: En cualquier rama dada de un circuito con múltiples fuentes, la corriente puede calcularse al determinar en esa rama particular las corrientes producidas por cada fuente que actúa sola, con todas las demás fuentes reemplazadas por sus resistencias internas. La corriente total en la rama es la suma algebraica de las corrientes individuales presentes en dicha rama.
+
+Sus pasos son:
+
+![image](https://user-images.githubusercontent.com/105565683/175839200-f2dc47a3-282e-4812-a53c-c54fb022b4cc.png)
+
+### TEOREMA DE THEVENIN 
+
+La forma Thevenin equivalente de cualquier circuito resistivo de dos terminales consta de una fuente de voltaje equivalente (VTH) y una resistencia equivalente (RTH).
+
+![image](https://user-images.githubusercontent.com/105565683/175839218-fe907368-7a6b-4ecb-8a2b-4644ee804d7d.png)
+
+-	En un circuito eléctrico, el voltaje equivalente de Thevenin (VTH) es el voltaje de circuito abierto (sin carga) presente entre dos terminales de salida.
+-	La resistencia equivalente de Thevenin (RTH) es la resistencia total que aparece entre dos terminales en un circuito dado que tiene todas las fuentes reemplazadas por sus resistencias internas.
+
+Sus pasos son:
+
+•	Paso 1. Abrir las dos terminales (eliminar cualquier carga) entre las que se desea encontrar el circuito equivalente de Thevenin. 
+•	Paso 2. Determinar el voltaje (VTH) entre las dos terminales abiertas. 
+•	Paso 3. Determinar la resistencia (RTH) entre las dos terminales abiertas con todas las fuentes reemplazadas por sus resistencias internas (fuentes de voltaje ideales en cortocircuito y fuentes de corriente ideales abiertas). 
+•	Paso 4. Conectar VTH y RTH en serie para producir el equivalente de Thevenin completo del circuito original. 
+•	Paso 5. Reemplazar la carga eliminada en el paso 1 entre las terminales del circuito equivalente de Thevenin. Ahora se pueden calcular la corriente y el voltaje que haya en la carga utilizando solamente la ley de Ohm. Tienen el mismo valor que la corriente y el voltaje presentes en la carga del circuito original.
+
+![image](https://user-images.githubusercontent.com/105565683/175839236-b87c6c22-1e0b-4b8f-b0eb-81f4ffb86cfb.png)
+
+### TEOREMA DE NORTON
+
+El teorema de Norton es un método empleado para simplificar un circuito lineal de dos terminales en un circuito equivalente con sólo una fuente de corriente en paralelo con un resistor.
+
+![image](https://user-images.githubusercontent.com/105565683/175839256-9960d0bc-a362-4085-9279-1266df1c3cfd.png)
+
+La corriente equivalente de Norton (IN) es la corriente que se encuentra en cortocircuito entre dos terminales de salida de un circuito.
+
+![image](https://user-images.githubusercontent.com/105565683/175839267-e031aab6-a03d-45b1-880d-c21d5cc42f43.png)
+
+La resistencia equivalente de Norton, RN, es la resistencia total que aparece entre dos terminales de salida en un circuito dado que tiene todas las fuentes reemplazadas por sus resistencias internas.
+
+![image](https://user-images.githubusercontent.com/105565683/175839277-cf6d6918-497b-4b30-8ef8-edf1bc689724.png)
+
+Sus pasos son:
+
+•	Paso 1. Poner con cortocircuito las dos terminales entre la cuales se desea determinar el circuito equivalente de Norton. 
+•	Paso 2. Determinar la corriente (IN) a través de las terminales puestas en cortocircuito. 
+•	Paso 3. Determinar la resistencia (RN) entre las dos terminales abiertas con todas las fuentes reemplazadas por sus resistencias internas (fuentes de voltaje ideales en cortocircuito y fuentes de corriente ideales abiertas). RN=RTH. 
+•	Paso 4. Conectar IN y RN en paralelo para producir el circuito equivalente de Norton completo para el circuito original.
+
+### TEOREMA DE TRANSFERENCIA DE POTENCIA MÁXIMA
+
+Para una fuente de voltaje dada, la potencia máxima se transfiere desde una fuente hasta una carga cuando la resistencia de la carga es igual a la resistencia interna de la fuente.
+
+La resistencia de la fuente, RS, de un circuito es la resistencia equivalente vista desde la terminal de salida utilizando el teorema de Thevenin.
+
+![image](https://user-images.githubusercontent.com/105565683/175839304-ab80cdac-2bf2-4d4e-893f-f15286173bfa.png)
+
+### CIRCUITOS DELTA Y Y
+
+![image](https://user-images.githubusercontent.com/105565683/175839312-d4d0b7e6-b01e-46ae-8a44-b1d11ff619e4.png)
+
+#### CONVERSIÓN DELTA A Y
+
+Cada resistor localizado en la Y es igual al producto de los resistores incluidos en dos ramas delta adyacentes, dividido entre la suma de los tres resistores en delta.
+
+![image](https://user-images.githubusercontent.com/105565683/175839328-9b800d8a-5a0b-4de4-b055-5ce96d5d33d8.png)
+
+![image](https://user-images.githubusercontent.com/105565683/175839346-1b5ca77e-57f5-4cdf-9322-4f8004310bc2.png)
+
+#### CONVERSIÓN DE Y A DELTA
+
+Cada resistor incluido en la delta es igual a la suma de todos los posibles productos de resistores Y tomados dos a la vez, y divididos entre el resistor Y opuesto.
+
+![image](https://user-images.githubusercontent.com/105565683/175839363-656642bb-f7c0-4df6-acc2-9113dd491155.png)
+
+![image](https://user-images.githubusercontent.com/105565683/175839378-8cf72a2f-57f6-4c7a-a62f-a5c544851b30.png)
 
 ## EXPLICACIÓN Y RESOLUCIÓN DE EJERCICIOS O PROBLEMAS
 
